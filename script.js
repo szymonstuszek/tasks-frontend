@@ -8,10 +8,10 @@ $(document).ready(function() {
   */ 
   
      /* for remote deploy */
-  var apiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/task/';
-  var trelloApiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/trello/';
-  var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  var tasksContainer = $('[data-tasks-container]');
+  const apiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/trello/';
+  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+  const tasksContainer = $('[data-tasks-container]');
    
 
   var availableBoards = {};
