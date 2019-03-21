@@ -8,7 +8,7 @@ $(document).ready(function() {
    */
   
      /* for remote deploy: */
-  var apiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/tasks/';
+  var apiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/';
   var trelloApiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/trello/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
