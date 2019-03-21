@@ -1,6 +1,5 @@
 $(document).ready(function() {
    
-<<<<<<< HEAD
   /*   for local developement: 
   const apiRoot = 'http://localhost:8080/v1/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
@@ -13,20 +12,7 @@ $(document).ready(function() {
   var trelloApiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/trello/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
-=======
-  /* for local testing 
-  const apiRoot = 'http://localhost:8080/v1/task/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
-  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const $tasksContainer = $('[data-tasks-container]');
-  */ 
-  
-     /* for remote deploy */
-  const apiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://pacific-ravine-98131.herokuapp.com/v1/trello/';
-  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const $tasksContainer = $('[data-tasks-container]');
->>>>>>> efb2613a5e5ace2c60ede6ee824626daf78fc37f
+
    
 
   var availableBoards = {};
